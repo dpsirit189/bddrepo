@@ -1,4 +1,5 @@
-Feature: r
-Scenario: c1
-Given user is on Home Page
-When he search for
+Feature: Demoblaze Login
+Scenario: Login
+Given user is Login page
+When user enter credentials
+Then home page should be displayed
